@@ -1,0 +1,11 @@
+# Build output. Release APKs are attached to GitHub Releases, not committed.
+build/
+*.apk
+*.idsig
+
+# Signing keys must never be published: whoever holds the key can sign
+# updates that install over the real app.
+*.keystore
+*.jks
+
+.DS_Store

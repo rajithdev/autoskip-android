@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AutoSkip</string>
+
+    <!-- Shown by Android in Accessibility settings -->
+    <string name="service_summary">Presses Skip on YouTube ads as soon as the button appears.</string>
+    <string name="service_description">AutoSkip watches the YouTube app for the Skip button on ads and presses it for you. It only looks at YouTube, it does not collect or send anything, and it has no internet access.</string>
+
+    <!-- Main screen -->
+    <string name="chip_on">●  ACTIVE</string>
+    <string name="chip_paused">●  PAUSED</string>
+    <string name="chip_off">●  OFF</string>
+    <string name="status_on">Skipping ads for you</string>
+    <string name="status_on_detail">Open YouTube and watch. The moment Skip appears, it\'s pressed.</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_paused_detail">Flip the switch below to start skipping again.</string>
+    <string name="status_off">AutoSkip is off</string>
+    <string name="status_off_detail">Turn it on once, and skippable YouTube ads get skipped for you.</string>
+    <string name="turn_on">Turn on AutoSkip</string>
+
+    <plurals name="ads_skipped">
+        <item quantity="one">ad skipped</item>
+        <item quantity="other">ads skipped</item>
+    </plurals>
+
+    <string name="auto_skip">Skip ads automatically</string>
+    <string name="auto_skip_detail">Pause here without changing settings</string>
+    <string name="about_title">Privacy and how it works</string>
+    <string name="about_detail">What AutoSkip can and can\'t see</string>
+    <string name="footnote">AutoSkip can\'t skip ads that have no Skip button, and it can\'t skip sooner than YouTube allows.</string>
+
+    <!-- Explanation screen -->
+    <string name="back">Back</string>
+    <string name="explain_title_setup">Before you turn it on</string>
+    <string name="explain_title_about">How AutoSkip works</string>
+    <string name="explain_intro">To press Skip for you, AutoSkip needs Android\'s Accessibility permission. Here is exactly what it does with it.</string>
+
+    <string name="point_youtube_title">It only looks at YouTube</string>
+    <string name="point_youtube_body">AutoSkip reads the YouTube app\'s screen, and only to find the Skip button. It does not look at your other apps.</string>
+    <string name="point_private_title">Nothing leaves your phone</string>
+    <string name="point_private_body">AutoSkip has no internet permission, so Android itself stops it from sending anything anywhere. You can check this under App info, Permissions.</string>
+    <string name="point_skip_title">It only presses Skip</string>
+    <string name="point_skip_body">It taps the Skip button when YouTube shows it, and nothing else. Ads without a Skip button play as usual.</string>
+
+    <string name="warning_title">Android will show a warning</string>
+    <string name="warning_body">Next, Android will warn that AutoSkip can view and control your screen. Every app that uses Accessibility gets this same warning, whatever the app actually does. It is right to read it carefully. For AutoSkip, tap Allow.</string>
+
+    <string name="steps_title">On the next screen</string>
+    <string name="step_1">Tap AutoSkip. It is under Installed apps or Downloaded apps.</string>
+    <string name="step_2">Switch it on.</string>
+    <string name="step_3">Tap Allow on the warning.</string>
+
+    <string name="continue_to_settings">Continue to Accessibility settings</string>
+    <string name="greyed_out">The switch is greyed out</string>
+    <string name="greyed_title">If the switch is greyed out</string>
+    <string name="greyed_body">Android blocks Accessibility for apps installed from a file until you allow it.\n\n1. Tap Open App info below.\n2. Tap the three dots at the top right.\n3. Choose \"Allow restricted settings\".\n\nThen come back and turn AutoSkip on.</string>
+    <string name="open_app_info">Open App info</string>
+    <string name="close">Close</string>
+</resources>

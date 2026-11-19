@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light palette. The dark one is in values-night/colors.xml. -->
+    <color name="bg">#F5F6FB</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_high">#E9ECF7</color>
+    <color name="text_primary">#14161D</color>
+    <color name="text_secondary">#5B6072</color>
+    <color name="accent">#4355F5</color>
+    <color name="on_accent">#FFFFFF</color>
+
+    <color name="state_paused">#A15C00</color>
+    <color name="state_off">#C62828</color>
+    <color name="warn_bg">#FFF1CF</color>
+    <color name="warn_text">#553700</color>
+    <color name="ripple">#22000000</color>
+    <color name="switch_track_off">#C9CCDA</color>
+    <color name="switch_thumb_off">#FFFFFF</color>
+
+    <!-- Same in both themes: the brand gradient and what sits on it. -->
+    <color name="grad_start">#4F63FF</color>
+    <color name="grad_end">#9A55F7</color>
+    <color name="on_grad">#FFFFFF</color>
+    <color name="on_grad_soft">#DDFFFFFF</color>
+    <color name="chip_on_grad">#33FFFFFF</color>
+</resources>
